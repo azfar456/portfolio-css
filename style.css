@@ -1,0 +1,108 @@
+.upper-block{
+    background-image:linear-gradient(antiquewhite, lightyellow) ;
+    width: 100%;
+    height: 600px;
+
+    margin: 0;
+    border: 0;
+    
+}
+.head-image{
+    
+    margin-bottom: 50px;
+    height: 200px;
+    position: relative;
+   display: flex;
+   justify-content: center;
+
+}
+.title{
+    font-family: 'Sacramento', cursive;
+    color: darkblue;
+    
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    
+}
+.sub-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.span-box{
+    font-weight: bolder;
+    
+}
+.Electrical{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 35px;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.hello{
+  color: skyblue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.parent{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+   text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    row-gap: 2rem;
+    width: 50%;
+}
+.heading{
+  color: purple;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.imp-text{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: lighter;
+}
+.getin{
+    text-align: center;
+    font-size: xx-large;
+    color: purple;
+    margin-top: 0;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.Contact{
+    background-image: linear-gradient(antiquewhite, white);
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-image: linear-gradient(skyblue, darkblue);
+    color: white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px auto 10px;
+    font-size: 15px;
+    font-family:"Montserrat", sans-serif;
+    
+    text-align: center;
+    width: 100px;
+}
